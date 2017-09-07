@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_visualitation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="3dp"
+            android:text="Calculated Load Value"
+            android:textSize="21sp" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart_clv"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"></com.github.mikephil.charting.charts.LineChart>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="3dp"
+            android:text="Coolant Temperature"
+            android:textSize="21sp" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart_ct"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"></com.github.mikephil.charting.charts.LineChart>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="3dp"
+            android:text="Intake Manifold Pressure"
+            android:textSize="21sp" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart_imp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"></com.github.mikephil.charting.charts.LineChart>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="3dp"
+            android:text="Engine RPM"
+            android:textSize="21sp" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart_eRPM"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"></com.github.mikephil.charting.charts.LineChart>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="3dp"
+            android:text="Vehicle Speed"
+            android:textSize="21sp" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart_vs"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"></com.github.mikephil.charting.charts.LineChart>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="3dp"
+            android:text="Timing Advance"
+            android:textSize="21sp" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart_ta"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"></com.github.mikephil.charting.charts.LineChart>
+
+        <TextView
+            android:layout_width=   "match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="3dp"
+            android:text="Intake Air Temp"
+            android:textSize="21sp" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart_iat"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"></com.github.mikephil.charting.charts.LineChart>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="3dp"
+            android:text="Air Flow Rate (MAF)"
+            android:textSize="21sp" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart_MAF"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"></com.github.mikephil.charting.charts.LineChart>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="3dp"
+                android:text="Throttle Position"
+            android:textSize="21sp" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart_TP"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"></com.github.mikephil.charting.charts.LineChart>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="3dp"
+            android:text="Time Since Engine Start"
+            android:textSize="21sp" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart_TSES"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"></com.github.mikephil.charting.charts.LineChart>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="3dp"
+            android:text="Engine Run with MIL on"
+            android:textSize="21sp" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart_ERMON"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"></com.github.mikephil.charting.charts.LineChart>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

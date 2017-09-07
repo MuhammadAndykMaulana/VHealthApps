@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\list_selector.xml",
+        "source": "C:\\Users\\TOSHIBA\\.android\\build-cache\\026904529db39dcab83d7236f24b57fd7f832dab\\output\\res\\drawable-v21\\list_selector.xml"
+    },
+    {
+        "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
+        "source": "C:\\Users\\TOSHIBA\\.android\\build-cache\\6b7422b8d020893a7fd8451d24dc7d114a767907\\output\\res\\drawable-v21\\avd_show_password.xml"
+    },
+    {
+        "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_lock_open_black_18dp.xml",
+        "source": "E:\\VHealth\\app\\src\\main\\res\\drawable-v21\\ic_lock_open_black_18dp.xml"
+    },
+    {
+        "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\TOSHIBA\\.android\\build-cache\\7bc0c1692fbc4d5872236503d66252fff1164ed0\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\TOSHIBA\\.android\\build-cache\\7bc0c1692fbc4d5872236503d66252fff1164ed0\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\TOSHIBA\\.android\\build-cache\\7bc0c1692fbc4d5872236503d66252fff1164ed0\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_share.xml",
+        "source": "E:\\VHealth\\app\\src\\main\\res\\drawable-v21\\ic_menu_share.xml"
+    },
+    {
+        "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_gallery.xml",
+        "source": "E:\\VHealth\\app\\src\\main\\res\\drawable-v21\\ic_menu_gallery.xml"
+    },
+    {
+        "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\TOSHIBA\\.android\\build-cache\\7bc0c1692fbc4d5872236503d66252fff1164ed0\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_send.xml",
+        "source": "E:\\VHealth\\app\\src\\main\\res\\drawable-v21\\ic_menu_send.xml"
+    },
+    {
+        "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_camera.xml",
+        "source": "E:\\VHealth\\app\\src\\main\\res\\drawable-v21\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\Users\\TOSHIBA\\.android\\build-cache\\6b7422b8d020893a7fd8451d24dc7d114a767907\\output\\res\\drawable-v21\\design_password_eye.xml"
+    },
+    {
+        "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_manage.xml",
+        "source": "E:\\VHealth\\app\\src\\main\\res\\drawable-v21\\ic_menu_manage.xml"
+    },
+    {
+        "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
+        "source": "C:\\Users\\TOSHIBA\\.android\\build-cache\\6b7422b8d020893a7fd8451d24dc7d114a767907\\output\\res\\drawable-v21\\avd_hide_password.xml"
+    },
+    {
+        "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\TOSHIBA\\.android\\build-cache\\6b7422b8d020893a7fd8451d24dc7d114a767907\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_menu_slideshow.xml",
+        "source": "E:\\VHealth\\app\\src\\main\\res\\drawable-v21\\ic_menu_slideshow.xml"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
+        "source": "E:\\VHealth\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher_round.png",
+        "source": "E:\\VHealth\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher2.png",
+        "source": "E:\\VHealth\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher2.png"
+    }
+]

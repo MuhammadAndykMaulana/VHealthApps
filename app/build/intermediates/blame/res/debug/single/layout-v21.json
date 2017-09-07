@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\TOSHIBA\\.android\\build-cache\\7bc0c1692fbc4d5872236503d66252fff1164ed0\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\TOSHIBA\\.android\\build-cache\\7bc0c1692fbc4d5872236503d66252fff1164ed0\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\TOSHIBA\\.android\\build-cache\\7bc0c1692fbc4d5872236503d66252fff1164ed0\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\TOSHIBA\\.android\\build-cache\\7bc0c1692fbc4d5872236503d66252fff1164ed0\\output\\res\\layout-v21\\notification_action.xml"
+    }
+]

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.toshiba.vhealth.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:theme="@style/ThemeOverlay.AppCompat.Light"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginLeft="60dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/vhealth"/>
+    </RelativeLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="100dp">
+
+        <RelativeLayout
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue">
+            <ImageButton
+                android:id="@+id/imageVD"
+                android:layout_width="162dp"
+                android:layout_height="87dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/vehiclediagnostic"
+                tools:layout_editor_absoluteX="6dp"
+                tools:layout_editor_absoluteY="82dp" />
+
+            <ImageButton
+                android:id="@+id/imageVN"
+                android:layout_width="162dp"
+                android:layout_height="87dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/navigation"
+                tools:layout_editor_absoluteX="6dp"
+                tools:layout_editor_absoluteY="82dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/row2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/row1"
+            android:layout_marginTop="10dp"
+            android:weightSum="2">
+<!--
+            <ImageView
+                android:id="@+id/imageES"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:src="@drawable/fp"
+                android:paddingRight="5dp" />
+
+            <ImageView
+                android:id="@+id/imageI"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:paddingLeft="5dp"
+                android:src="@drawable/lock" />-->
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

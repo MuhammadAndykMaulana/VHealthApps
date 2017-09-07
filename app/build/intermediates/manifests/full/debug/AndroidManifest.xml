@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.toshiba.vhealth"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="25" />
+
+    <permission
+        android:name="com.example.toshiba.vhealth.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="com.example.toshiba.vhealth.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <!--
+    GET_ACCOUNTS is only required for GCM on devices running Android lower than
+    4.0.4. You may leave out this permission if you are targetting 4.0.4+.
+    -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name="com.example.toshiba.vhealth.MesosferApp"
+        android:allowBackup="true"
+        android:icon="@drawable/vhealthlogo"
+        android:label="V-Health Rest"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.toshiba.vhealth.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.toshiba.vhealth.RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.toshiba.vhealth.LoginActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name="com.example.toshiba.vhealth.ProfileActivity" />
+        <activity android:name="com.example.toshiba.vhealth.UserListActivity" />
+
+        <receiver
+            android:name="com.eyro.mesosfer.PushBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.eyro.mesosfer.push.intent.RECEIVE" />
+                <action android:name="com.eyro.mesosfer.push.intent.DELETE" />
+                <action android:name="com.eyro.mesosfer.push.intent.OPEN" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.eyro.mesosfer.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.example.toshiba.vhealth" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.example.toshiba.vhealth.SplashActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.toshiba.vhealth.Monitor" />
+        <activity android:name="com.tangxiaolv.telegramgallery.GalleryActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.example.toshiba.vhealth.TrackActivity"
+            android:label="@string/title_activity_track" />
+        <activity
+            android:name="com.example.toshiba.vhealth.VisualitationActivity"
+            android:label="Realtime Monitoring"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.toshiba.vhealth.dummyActivity" />
+
+        <meta-data
+            android:name="com.eyro.mesosfer.APPLICATION_ID"
+            android:value="02def0a7c6ea16559bdc3fc3ff977b1c" />
+        <meta-data
+            android:name="com.eyro.mesosfer.CLIENT_KEY"
+            android:value="LHMEvZoZvisRlztuFAGChZDRLlV3mFThIDZbb0dJ" />
+        <meta-data
+            android:name="com.eyro.mesosfer.push.gcm_sender_id"
+            android:value="id:523325046971" />
+
+        <service android:name="com.eyro.mesosfer.PushService" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

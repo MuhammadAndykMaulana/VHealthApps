@@ -1,0 +1,316 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:2:1-98:12
+	package
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:4:5-42
+		INJECTED from E:\VHealth\app\src\main\AndroidManifest.xml
+		INJECTED from E:\VHealth\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\VHealth\app\src\main\AndroidManifest.xml
+		INJECTED from E:\VHealth\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\VHealth\app\src\main\AndroidManifest.xml
+		INJECTED from E:\VHealth\app\src\main\AndroidManifest.xml
+permission#com.example.toshiba.vhealth.permission.C2D_MESSAGE
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:6:5-8:47
+	android:protectionLevel
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:8:9-44
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:7:9-74
+uses-permission#android.permission.BLUETOOTH
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:10:5-68
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:10:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:11:5-74
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:11:22-71
+uses-permission#com.example.toshiba.vhealth.permission.C2D_MESSAGE
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:12:5-90
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:12:22-87
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:14:22-77
+uses-feature#android.hardware.camera
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:16:5-60
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:16:19-57
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:23:22-76
+application
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:25:5-96:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\TOSHIBA\.android\build-cache\6b7422b8d020893a7fd8451d24dc7d114a767907\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\TOSHIBA\.android\build-cache\7bc0c1692fbc4d5872236503d66252fff1164ed0\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\TOSHIBA\.android\build-cache\baf5981bfb4e2dd4e1a58ea434ec497a8825ee8c\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\TOSHIBA\.android\build-cache\d48acbd6fe994988ef42913032f70461a9ea5ec8\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\TOSHIBA\.android\build-cache\c2dda4eba1b6a643b7e4d0a8e2b0eec99a5653f6\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\TOSHIBA\.android\build-cache\bd206aaf322be7a86bb98c98e69020a49b14ede1\output\AndroidManifest.xml:9:5-20
+MERGED from [com.eyro.mesosfer:MesosferSDK-Android:0.1.0] C:\Users\TOSHIBA\.android\build-cache\097b31f20d90dbffecb8662e7c71171e92f8b036\output\AndroidManifest.xml:23:5-37:19
+MERGED from [com.library.tangxiaolv:telegramgallery:1.0.3] C:\Users\TOSHIBA\.android\build-cache\026904529db39dcab83d7236f24b57fd7f832dab\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\TOSHIBA\.android\build-cache\8496b04fc22c80c20ba556ec018d8917b61e39a7\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\TOSHIBA\.android\build-cache\ee46759e7a36a1866dcc9ed0e82dffb395f92564\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\TOSHIBA\.android\build-cache\e6d379b7d7b028c09e3816f237075837270e8382\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\TOSHIBA\.android\build-cache\a1c546a3474ad72d50049c5f7de8aba1ea38749e\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\TOSHIBA\.android\build-cache\8cd96f3167ef84d52617bc18aa7068fc6221de18\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\TOSHIBA\.android\build-cache\67e90785017e0afc0636f9bcc0b84e760866b5c5\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\TOSHIBA\.android\build-cache\59e457baf8abefe3a85376dbf215d855de2f4827\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\TOSHIBA\.android\build-cache\8c114e30cb9b86ebae167ee61edc0282469967b2\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\TOSHIBA\.android\build-cache\329b7169fe7a768d8e41fd12856b2a3266f515f1\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\TOSHIBA\.android\build-cache\49d5a4bd7801255a78b7d2ef6df8bca8f14d64d2\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:29:9-38
+		REJECTED from [com.library.tangxiaolv:telegramgallery:1.0.3] C:\Users\TOSHIBA\.android\build-cache\026904529db39dcab83d7236f24b57fd7f832dab\output\AndroidManifest.xml:13:9-41
+	android:supportsRtl
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:30:9-35
+	android:allowBackup
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:27:9-35
+	android:icon
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:28:9-45
+	android:theme
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:31:9-40
+	tools:replace
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:32:9-38
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:26:9-36
+activity#com.example.toshiba.vhealth.MainActivity
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:33:9-35:59
+	android:theme
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:35:13-56
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:34:13-41
+activity#com.example.toshiba.vhealth.RegisterActivity
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:36:9-38:59
+	android:theme
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:38:13-56
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:37:13-45
+activity#com.example.toshiba.vhealth.LoginActivity
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:39:9-41:72
+	android:theme
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:41:13-69
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:40:13-42
+activity#com.example.toshiba.vhealth.ProfileActivity
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:42:9-53
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:42:19-50
+activity#com.example.toshiba.vhealth.UserListActivity
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:43:9-54
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:43:19-51
+receiver#com.eyro.mesosfer.PushBroadcastReceiver
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:45:9-53:20
+	android:exported
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:46:13-67
+intent-filter#com.eyro.mesosfer.push.intent.DELETE+com.eyro.mesosfer.push.intent.OPEN+com.eyro.mesosfer.push.intent.RECEIVE
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:48:13-52:29
+action#com.eyro.mesosfer.push.intent.RECEIVE
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:49:17-80
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:49:25-77
+action#com.eyro.mesosfer.push.intent.DELETE
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:50:17-79
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:50:25-76
+action#com.eyro.mesosfer.push.intent.OPEN
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:51:17-77
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:51:25-74
+receiver#com.eyro.mesosfer.GcmBroadcastReceiver
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:54:9-63:20
+	android:permission
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:56:13-73
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:55:13-66
+intent-filter#com.example.toshiba.vhealth+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:57:13-62:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:58:17-81
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:58:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:59:17-86
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:59:25-83
+category#com.example.toshiba.vhealth
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:61:17-72
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:61:27-69
+activity#com.example.toshiba.vhealth.SplashActivity
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:65:9-73:20
+	android:theme
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:67:13-69
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:66:13-43
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:68:13-72:29
+action#android.intent.action.MAIN
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:69:17-69
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:69:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:71:17-77
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:71:27-74
+activity#com.example.toshiba.vhealth.Monitor
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:74:9-45
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:74:19-42
+activity#com.tangxiaolv.telegramgallery.GalleryActivity
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:75:9-83
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:75:19-80
+meta-data#com.google.android.geo.API_KEY
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:84:9-86:55
+	android:value
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:86:13-52
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:85:13-58
+activity#com.example.toshiba.vhealth.TrackActivity
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:88:9-90:60
+	android:label
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:90:13-57
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:89:13-42
+activity#com.example.toshiba.vhealth.VisualitationActivity
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:91:9-94:59
+	android:label
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:93:13-48
+	android:theme
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:94:13-56
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:92:13-50
+activity#com.example.toshiba.vhealth.dummyActivity
+ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:95:9-60
+	android:name
+		ADDED from E:\VHealth\app\src\main\AndroidManifest.xml:95:19-48
+uses-sdk
+INJECTED from E:\VHealth\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\TOSHIBA\.android\build-cache\dd9cad38696a0021ee913c8ee9fbe9510b89f388\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:design:25.3.1] C:\Users\TOSHIBA\.android\build-cache\6b7422b8d020893a7fd8451d24dc7d114a767907\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\TOSHIBA\.android\build-cache\7bc0c1692fbc4d5872236503d66252fff1164ed0\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\TOSHIBA\.android\build-cache\baf5981bfb4e2dd4e1a58ea434ec497a8825ee8c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\TOSHIBA\.android\build-cache\d48acbd6fe994988ef42913032f70461a9ea5ec8\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\TOSHIBA\.android\build-cache\03b5b8cd5412c56d1c5a658af2fa78d540f42b6b\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\TOSHIBA\.android\build-cache\c2dda4eba1b6a643b7e4d0a8e2b0eec99a5653f6\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\TOSHIBA\.android\build-cache\bd206aaf322be7a86bb98c98e69020a49b14ede1\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.eyro.mesosfer:MesosferSDK-Android:0.1.0] C:\Users\TOSHIBA\.android\build-cache\097b31f20d90dbffecb8662e7c71171e92f8b036\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.library.tangxiaolv:telegramgallery:1.0.3] C:\Users\TOSHIBA\.android\build-cache\026904529db39dcab83d7236f24b57fd7f832dab\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\TOSHIBA\.android\build-cache\8496b04fc22c80c20ba556ec018d8917b61e39a7\output\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\TOSHIBA\.android\build-cache\ee46759e7a36a1866dcc9ed0e82dffb395f92564\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\TOSHIBA\.android\build-cache\e6d379b7d7b028c09e3816f237075837270e8382\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\TOSHIBA\.android\build-cache\a1c546a3474ad72d50049c5f7de8aba1ea38749e\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\TOSHIBA\.android\build-cache\8cd96f3167ef84d52617bc18aa7068fc6221de18\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\TOSHIBA\.android\build-cache\67e90785017e0afc0636f9bcc0b84e760866b5c5\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\TOSHIBA\.android\build-cache\59e457baf8abefe3a85376dbf215d855de2f4827\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\TOSHIBA\.android\build-cache\8c114e30cb9b86ebae167ee61edc0282469967b2\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\TOSHIBA\.android\build-cache\329b7169fe7a768d8e41fd12856b2a3266f515f1\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\TOSHIBA\.android\build-cache\49d5a4bd7801255a78b7d2ef6df8bca8f14d64d2\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.github.PhilJay:MPAndroidChart-Realm:v2.0.2] C:\Users\TOSHIBA\.android\build-cache\e626d67ddea07f561cec0fca616506de54d1e0a8\output\AndroidManifest.xml:12:5-14:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\TOSHIBA\.android\build-cache\6b7422b8d020893a7fd8451d24dc7d114a767907\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from E:\VHealth\app\src\main\AndroidManifest.xml
+		INJECTED from E:\VHealth\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\VHealth\app\src\main\AndroidManifest.xml
+		INJECTED from E:\VHealth\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\TOSHIBA\.android\build-cache\6b7422b8d020893a7fd8451d24dc7d114a767907\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\TOSHIBA\.android\build-cache\7bc0c1692fbc4d5872236503d66252fff1164ed0\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\TOSHIBA\.android\build-cache\baf5981bfb4e2dd4e1a58ea434ec497a8825ee8c\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\TOSHIBA\.android\build-cache\d48acbd6fe994988ef42913032f70461a9ea5ec8\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\TOSHIBA\.android\build-cache\03b5b8cd5412c56d1c5a658af2fa78d540f42b6b\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\TOSHIBA\.android\build-cache\c2dda4eba1b6a643b7e4d0a8e2b0eec99a5653f6\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\TOSHIBA\.android\build-cache\8cd96f3167ef84d52617bc18aa7068fc6221de18\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\TOSHIBA\.android\build-cache\67e90785017e0afc0636f9bcc0b84e760866b5c5\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\TOSHIBA\.android\build-cache\59e457baf8abefe3a85376dbf215d855de2f4827\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\TOSHIBA\.android\build-cache\8c114e30cb9b86ebae167ee61edc0282469967b2\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\TOSHIBA\.android\build-cache\329b7169fe7a768d8e41fd12856b2a3266f515f1\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\TOSHIBA\.android\build-cache\49d5a4bd7801255a78b7d2ef6df8bca8f14d64d2\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\TOSHIBA\.android\build-cache\6b7422b8d020893a7fd8451d24dc7d114a767907\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\TOSHIBA\.android\build-cache\6b7422b8d020893a7fd8451d24dc7d114a767907\output\AndroidManifest.xml:26:9-47
+uses-permission#android.permission.INTERNET
+ADDED from [com.eyro.mesosfer:MesosferSDK-Android:0.1.0] C:\Users\TOSHIBA\.android\build-cache\097b31f20d90dbffecb8662e7c71171e92f8b036\output\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\TOSHIBA\.android\build-cache\8496b04fc22c80c20ba556ec018d8917b61e39a7\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from [com.eyro.mesosfer:MesosferSDK-Android:0.1.0] C:\Users\TOSHIBA\.android\build-cache\097b31f20d90dbffecb8662e7c71171e92f8b036\output\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.eyro.mesosfer:MesosferSDK-Android:0.1.0] C:\Users\TOSHIBA\.android\build-cache\097b31f20d90dbffecb8662e7c71171e92f8b036\output\AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\TOSHIBA\.android\build-cache\8496b04fc22c80c20ba556ec018d8917b61e39a7\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.eyro.mesosfer:MesosferSDK-Android:0.1.0] C:\Users\TOSHIBA\.android\build-cache\097b31f20d90dbffecb8662e7c71171e92f8b036\output\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.eyro.mesosfer:MesosferSDK-Android:0.1.0] C:\Users\TOSHIBA\.android\build-cache\097b31f20d90dbffecb8662e7c71171e92f8b036\output\AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from [com.eyro.mesosfer:MesosferSDK-Android:0.1.0] C:\Users\TOSHIBA\.android\build-cache\097b31f20d90dbffecb8662e7c71171e92f8b036\output\AndroidManifest.xml:13:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from [com.eyro.mesosfer:MesosferSDK-Android:0.1.0] C:\Users\TOSHIBA\.android\build-cache\097b31f20d90dbffecb8662e7c71171e92f8b036\output\AndroidManifest.xml:14:5-66
+	android:name
+		ADDED from [com.eyro.mesosfer:MesosferSDK-Android:0.1.0] C:\Users\TOSHIBA\.android\build-cache\097b31f20d90dbffecb8662e7c71171e92f8b036\output\AndroidManifest.xml:14:22-63
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.eyro.mesosfer:MesosferSDK-Android:0.1.0] C:\Users\TOSHIBA\.android\build-cache\097b31f20d90dbffecb8662e7c71171e92f8b036\output\AndroidManifest.xml:15:5-82
+	android:name
+		ADDED from [com.eyro.mesosfer:MesosferSDK-Android:0.1.0] C:\Users\TOSHIBA\.android\build-cache\097b31f20d90dbffecb8662e7c71171e92f8b036\output\AndroidManifest.xml:15:22-79
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from [com.eyro.mesosfer:MesosferSDK-Android:0.1.0] C:\Users\TOSHIBA\.android\build-cache\097b31f20d90dbffecb8662e7c71171e92f8b036\output\AndroidManifest.xml:21:5-71
+	android:name
+		ADDED from [com.eyro.mesosfer:MesosferSDK-Android:0.1.0] C:\Users\TOSHIBA\.android\build-cache\097b31f20d90dbffecb8662e7c71171e92f8b036\output\AndroidManifest.xml:21:22-68
+meta-data#com.eyro.mesosfer.APPLICATION_ID
+ADDED from [com.eyro.mesosfer:MesosferSDK-Android:0.1.0] C:\Users\TOSHIBA\.android\build-cache\097b31f20d90dbffecb8662e7c71171e92f8b036\output\AndroidManifest.xml:26:9-28:64
+	android:value
+		ADDED from [com.eyro.mesosfer:MesosferSDK-Android:0.1.0] C:\Users\TOSHIBA\.android\build-cache\097b31f20d90dbffecb8662e7c71171e92f8b036\output\AndroidManifest.xml:28:13-61
+	android:name
+		ADDED from [com.eyro.mesosfer:MesosferSDK-Android:0.1.0] C:\Users\TOSHIBA\.android\build-cache\097b31f20d90dbffecb8662e7c71171e92f8b036\output\AndroidManifest.xml:27:13-60
+meta-data#com.eyro.mesosfer.CLIENT_KEY
+ADDED from [com.eyro.mesosfer:MesosferSDK-Android:0.1.0] C:\Users\TOSHIBA\.android\build-cache\097b31f20d90dbffecb8662e7c71171e92f8b036\output\AndroidManifest.xml:29:9-31:72
+	android:value
+		ADDED from [com.eyro.mesosfer:MesosferSDK-Android:0.1.0] C:\Users\TOSHIBA\.android\build-cache\097b31f20d90dbffecb8662e7c71171e92f8b036\output\AndroidManifest.xml:31:13-69
+	android:name
+		ADDED from [com.eyro.mesosfer:MesosferSDK-Android:0.1.0] C:\Users\TOSHIBA\.android\build-cache\097b31f20d90dbffecb8662e7c71171e92f8b036\output\AndroidManifest.xml:30:13-56
+meta-data#com.eyro.mesosfer.push.gcm_sender_id
+ADDED from [com.eyro.mesosfer:MesosferSDK-Android:0.1.0] C:\Users\TOSHIBA\.android\build-cache\097b31f20d90dbffecb8662e7c71171e92f8b036\output\AndroidManifest.xml:32:9-34:47
+	android:value
+		ADDED from [com.eyro.mesosfer:MesosferSDK-Android:0.1.0] C:\Users\TOSHIBA\.android\build-cache\097b31f20d90dbffecb8662e7c71171e92f8b036\output\AndroidManifest.xml:34:13-44
+	android:name
+		ADDED from [com.eyro.mesosfer:MesosferSDK-Android:0.1.0] C:\Users\TOSHIBA\.android\build-cache\097b31f20d90dbffecb8662e7c71171e92f8b036\output\AndroidManifest.xml:33:13-64
+service#com.eyro.mesosfer.PushService
+ADDED from [com.eyro.mesosfer:MesosferSDK-Android:0.1.0] C:\Users\TOSHIBA\.android\build-cache\097b31f20d90dbffecb8662e7c71171e92f8b036\output\AndroidManifest.xml:36:9-65
+	android:name
+		ADDED from [com.eyro.mesosfer:MesosferSDK-Android:0.1.0] C:\Users\TOSHIBA\.android\build-cache\097b31f20d90dbffecb8662e7c71171e92f8b036\output\AndroidManifest.xml:36:18-62
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\TOSHIBA\.android\build-cache\8496b04fc22c80c20ba556ec018d8917b61e39a7\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\TOSHIBA\.android\build-cache\8496b04fc22c80c20ba556ec018d8917b61e39a7\output\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\TOSHIBA\.android\build-cache\8496b04fc22c80c20ba556ec018d8917b61e39a7\output\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\TOSHIBA\.android\build-cache\ee46759e7a36a1866dcc9ed0e82dffb395f92564\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\TOSHIBA\.android\build-cache\ee46759e7a36a1866dcc9ed0e82dffb395f92564\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\TOSHIBA\.android\build-cache\ee46759e7a36a1866dcc9ed0e82dffb395f92564\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\TOSHIBA\.android\build-cache\ee46759e7a36a1866dcc9ed0e82dffb395f92564\output\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\TOSHIBA\.android\build-cache\a1c546a3474ad72d50049c5f7de8aba1ea38749e\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\TOSHIBA\.android\build-cache\a1c546a3474ad72d50049c5f7de8aba1ea38749e\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\TOSHIBA\.android\build-cache\a1c546a3474ad72d50049c5f7de8aba1ea38749e\output\AndroidManifest.xml:20:20-65
