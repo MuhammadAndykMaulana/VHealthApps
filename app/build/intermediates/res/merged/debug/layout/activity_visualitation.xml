@@ -9,7 +9,7 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     android:orientation="vertical"
-    android:background="@color/colorPrimaryDark" >
+    android:background="@color/colorPrimary" >
 
     <ScrollView
         android:layout_width="match_parent"
@@ -24,9 +24,299 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_alignParentStart="true">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_name1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_colon1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_value1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_name2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_colon2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_value2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_name3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_colon3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_value3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_name4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_colon4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_value4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_name5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_colon5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_value5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_name6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_colon6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_value6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_name7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_colon7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_value7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_name8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_colon8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_value8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_name9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_colon9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_value9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_name10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_colon10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_value10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_name11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_colon11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/txt_value11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+            </TableRow>
+        </TableLayout>
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/clv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
@@ -40,6 +330,7 @@
             android:layout_height="300dp"></com.github.mikephil.charting.charts.LineChart>
 
         <TextView
+            android:id="@+id/ct"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
@@ -51,21 +342,23 @@
             android:id="@+id/chart_ct"
             android:layout_width="match_parent"
             android:layout_height="300dp"></com.github.mikephil.charting.charts.LineChart>
-
         <TextView
+            android:id="@+id/maf"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:padding="3dp"
-            android:text="Intake Manifold Pressure"
+            android:text="Air Flow Rate (MAF)"
             android:textSize="21sp" />
 
         <com.github.mikephil.charting.charts.LineChart
-            android:id="@+id/chart_imp"
+            android:id="@+id/chart_MAF"
             android:layout_width="match_parent"
             android:layout_height="300dp"></com.github.mikephil.charting.charts.LineChart>
 
+
         <TextView
+            android:id="@+id/rpm"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
@@ -79,6 +372,7 @@
             android:layout_height="300dp"></com.github.mikephil.charting.charts.LineChart>
 
         <TextView
+            android:id="@+id/speed"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
@@ -91,21 +385,10 @@
             android:layout_width="match_parent"
             android:layout_height="300dp"></com.github.mikephil.charting.charts.LineChart>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:padding="3dp"
-            android:text="Timing Advance"
-            android:textSize="21sp" />
-
-        <com.github.mikephil.charting.charts.LineChart
-            android:id="@+id/chart_ta"
-            android:layout_width="match_parent"
-            android:layout_height="300dp"></com.github.mikephil.charting.charts.LineChart>
 
         <TextView
-            android:layout_width=   "match_parent"
+            android:id="@+id/iat"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:padding="3dp"
@@ -118,56 +401,76 @@
             android:layout_height="300dp"></com.github.mikephil.charting.charts.LineChart>
 
         <TextView
+            android:id="@+id/imp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:padding="3dp"
-            android:text="Air Flow Rate (MAF)"
+            android:text="Intake Manifold Pressure"
             android:textSize="21sp" />
 
         <com.github.mikephil.charting.charts.LineChart
-            android:id="@+id/chart_MAF"
+            android:id="@+id/chart_imp"
             android:layout_width="match_parent"
             android:layout_height="300dp"></com.github.mikephil.charting.charts.LineChart>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:padding="3dp"
-                android:text="Throttle Position"
-            android:textSize="21sp" />
-
-        <com.github.mikephil.charting.charts.LineChart
-            android:id="@+id/chart_TP"
-            android:layout_width="match_parent"
-            android:layout_height="300dp"></com.github.mikephil.charting.charts.LineChart>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:padding="3dp"
-            android:text="Time Since Engine Start"
-            android:textSize="21sp" />
-
-        <com.github.mikephil.charting.charts.LineChart
-            android:id="@+id/chart_TSES"
-            android:layout_width="match_parent"
-            android:layout_height="300dp"></com.github.mikephil.charting.charts.LineChart>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:padding="3dp"
-            android:text="Engine Run with MIL on"
-            android:textSize="21sp" />
-
-        <com.github.mikephil.charting.charts.LineChart
-            android:id="@+id/chart_ERMON"
-            android:layout_width="match_parent"
-            android:layout_height="300dp"></com.github.mikephil.charting.charts.LineChart>
     </LinearLayout>
     </ScrollView>
 </RelativeLayout>
+
+
+    <!--
+    <TextView
+        android:id="@+id/tp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="3dp"
+        android:text="Throttle Position"
+        android:textSize="21sp" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart_TP"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"></com.github.mikephil.charting.charts.LineChart>
+
+    <TextView
+        android:id="@+id/ta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="3dp"
+        android:text="Timing Advance"
+        android:textSize="21sp" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart_ta"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"></com.github.mikephil.charting.charts.LineChart>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="3dp"
+        android:text="Time Since Engine Start"
+        android:textSize="21sp" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart_TSES"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"></com.github.mikephil.charting.charts.LineChart>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="3dp"
+        android:text="Engine Run with MIL on"
+        android:textSize="21sp" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart_ERMON"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"></com.github.mikephil.charting.charts.LineChart>
+        -->

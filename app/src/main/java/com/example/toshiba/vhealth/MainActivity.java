@@ -13,9 +13,11 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.eyro.mesosfer.LogOutCallback;
@@ -25,16 +27,19 @@ import com.eyro.mesosfer.MesosferUser;
 import com.tangxiaolv.telegramgallery.GalleryActivity;
 import com.tangxiaolv.telegramgallery.GalleryConfig;
 
+import java.net.URISyntaxException;
 import java.util.List;
 import java.util.Locale;
 
+
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+
     private ProgressDialog loading;
     private AlertDialog dialog;
     private ImageView imageVD;
     private ImageView imageVN;
-//    private ImageView imageES;
-//    private ImageView imageI;
+    //private ImageView imageES;
+    //private ImageView imageI;
     private static final int REQUEST_IMAGE_CAPTURE = 54;
     private static final int REQUEST_OPEN_GALLERY = 30;
     private ImageView camera;
@@ -99,7 +104,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
         });*/
     }
-
     public void handleLogout(View view) {
         loading.setMessage("Logging out...");
         loading.show();
@@ -168,7 +172,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
 
             case R.id.dummy:
-                Intent intent2 = new Intent(this, VisualitationActivity.class);
+                Intent intent2 = new Intent(this, dummyActivity.class);
                 startActivity(intent2);
                 break;
 

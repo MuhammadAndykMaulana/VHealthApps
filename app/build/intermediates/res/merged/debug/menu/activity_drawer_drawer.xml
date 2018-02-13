@@ -10,10 +10,14 @@
             android:id="@+id/user_list"
             android:icon="@drawable/user_list"
             android:title="User List"/>
+        <!--<item-->
+            <!--android:id="@+id/dummy"-->
+            <!--android:icon="@drawable/test"-->
+            <!--android:title="Simulasi Test" />-->
         <item
-            android:id="@+id/dummy"
+            android:id="@+id/History"
             android:icon="@drawable/test"
-            android:title="Simulasi Test" />
+            android:title="History" />
         <item
             android:id="@+id/nav_camera"
             android:icon="@drawable/ic_menu_camera"

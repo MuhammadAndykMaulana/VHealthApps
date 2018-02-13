@@ -32,6 +32,10 @@
         "source": "C:\\Users\\TOSHIBA\\.android\\build-cache\\7bc0c1692fbc4d5872236503d66252fff1164ed0\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
+        "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_history.xml",
+        "source": "E:\\VHealth\\app\\src\\main\\res\\layout\\activity_history.xml"
+    },
+    {
         "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "C:\\Users\\TOSHIBA\\.android\\build-cache\\7bc0c1692fbc4d5872236503d66252fff1164ed0\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },

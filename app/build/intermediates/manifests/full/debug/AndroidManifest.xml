@@ -8,6 +8,11 @@
         android:minSdkVersion="17"
         android:targetSdkVersion="25" />
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
     <permission
         android:name="com.example.toshiba.vhealth.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
@@ -26,13 +31,14 @@
          location permissions for the 'MyLocation' functionality. 
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
 
     <meta-data
         android:name="android.support.VERSION"
         android:value="25.3.1" />
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
@@ -106,7 +112,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
+            android:value="AIzaSyAc0bDpNQdgVjnE2pcdgaCMZf50Yw5O_g4" />
 
         <activity
             android:name="com.example.toshiba.vhealth.TrackActivity"
@@ -116,6 +122,7 @@
             android:label="Realtime Monitoring"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.example.toshiba.vhealth.dummyActivity" />
+        <activity android:name="com.example.toshiba.vhealth.History" />
 
         <meta-data
             android:name="com.eyro.mesosfer.APPLICATION_ID"

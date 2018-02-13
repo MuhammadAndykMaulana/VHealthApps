@@ -1,18 +1,27 @@
 package com.example.toshiba.vhealth;
 
+import android.content.pm.PackageManager;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.util.JsonReader;
 import android.util.Log;
 
+import com.alibaba.fastjson.JSON;
+import com.example.toshiba.vhealth.model.payloadResponse;
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.GoogleMap.CancelableCallback;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.gms.maps.MapFragment;
+import com.google.android.gms.maps.Projection;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -57,9 +66,19 @@ public class TrackActivity extends FragmentActivity implements OnMapReadyCallbac
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-
         // Add a marker in Sydney and move the camera
+
+//        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+//            return;
+//        }
         initSocket();
+
+//        this.mMap.setMyLocationEnabled(true);
+//        this.mMap.getUiSettings().setMapToolbarEnabled(true);
+//        this.mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(-6.3447636d, 106.8355373d), 7.0f));
+//        this.mMap.setOnMapClickListener(this);
+//        this.mMap.setOnMarkerClickListener(this);
+//        this.mMap.setTrafficEnabled(true);
     }
 
     private Emitter.Listener onConnect = new Emitter.Listener() {
@@ -134,6 +153,11 @@ public class TrackActivity extends FragmentActivity implements OnMapReadyCallbac
             JSONObject Payload = null;
             JSONObject Gps=null;
             Log.d("TrackActivity","Response payload GPS : "+(JSONObject)args[0]);
+            Log.d("MQQT", "call: " + args[0]);
+            Log.d("MQTT", "call: " + args[0].toString());
+            payloadResponse response = JSON.parseObject(String.valueOf(args[0]), payloadResponse.class);
+            String payloadStr = response.getPayload();
+            Log.d("Payload", "payloadStr: " + payloadStr);
             try {
                 Payload = new JSONObject(((JSONObject) args[0]).getString("payload"));
                 Gps = new JSONObject(Payload.getString("gps"));

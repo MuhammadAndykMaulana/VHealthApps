@@ -55,7 +55,7 @@ public final class R {
     }
     public static final class layout {
         public static final int activity_gallery = 0x7f04001d;
-        public static final int media_loading_layout = 0x7f040037;
+        public static final int media_loading_layout = 0x7f040038;
     }
     public static final class string {
         public static final int Album = 0x7f070026;

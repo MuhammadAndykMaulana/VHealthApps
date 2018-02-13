@@ -3,6 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.toshiba.vhealth">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
     <permission
         android:name="com.example.toshiba.vhealth.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
@@ -21,6 +26,9 @@
          location permissions for the 'MyLocation' functionality. 
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
 
     <application
         android:name=".MesosferApp"
@@ -83,7 +91,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
+            android:value="AIzaSyAc0bDpNQdgVjnE2pcdgaCMZf50Yw5O_g4" />
 
         <activity
             android:name=".TrackActivity"
@@ -92,7 +100,8 @@
             android:name=".VisualitationActivity"
             android:label="Realtime Monitoring"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".dummyActivity"></activity>
+        <activity android:name=".dummyActivity" />
+        <activity android:name=".History"></activity>
     </application>
 
 </manifest>

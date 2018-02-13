@@ -176,12 +176,12 @@
         "source": "C:\\Users\\TOSHIBA\\.android\\build-cache\\7bc0c1692fbc4d5872236503d66252fff1164ed0\\output\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\search_gif.png",
-        "source": "C:\\Users\\TOSHIBA\\.android\\build-cache\\026904529db39dcab83d7236f24b57fd7f832dab\\output\\res\\drawable-xhdpi-v4\\search_gif.png"
-    },
-    {
         "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png",
         "source": "C:\\Users\\TOSHIBA\\.android\\build-cache\\7bc0c1692fbc4d5872236503d66252fff1164ed0\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\search_gif.png",
+        "source": "C:\\Users\\TOSHIBA\\.android\\build-cache\\026904529db39dcab83d7236f24b57fd7f832dab\\output\\res\\drawable-xhdpi-v4\\search_gif.png"
     },
     {
         "merged": "E:\\VHealth\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
